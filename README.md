@@ -1,48 +1,13 @@
+# Arbeitsweise
 
-# Architecture Ref.Card 02 - React Application (serverless)
+## 1. fehlerlose Ausführung des Programms auf dem eigenen Rechner
 
-Link zur Übersicht<br/>
-https://gitlab.com/bbwrl/m346-ref-card-overview
+Zunächst einmal muss man sicherstellen, dass das Programm auf dem eigenen Rechner läuft.
 
-## Installation der benötigten Werkzeuge
+Bei dieser Webanwendung teste ich dies mit `npm run build; npm run start` und öffne dann den Browser auf `localhost:3000`.
 
-Für das Bauen der App wird Node bzw. npm benötigt. Die Tools sind unter 
-der folgenden URL zu finden. Für die meisten Benutzer:innen empfiehlt sich 
-die LTS Version.<br/>
-https://nodejs.org/en/download/
+## 2. Testen des Programms in einem Docker-Container
 
-Node Version Manager<br/>
-Für erfahren Benutzer:innen empfiehlt sich die Installation des 
-Node Version Manager nvm. Dieses Tool erlaubt das Installiert und das 
-Wechseln der Node Version über die Kommandozeile.<br/>
-**Achtung: Node darf noch nicht auf dem Computer installiert sein.**<br/>
-https://learn2torials.com/a/how-to-install-nvm
+## 3. Dockerhub repository erstellen
 
-
-## Inbetriebnahme auf eigenem Computer
-
-Projekt herunterladen<br/>
-```git clone git@gitlab.com:bbwrl/m346-ref-card-02.git```
-<br/>
-```cd architecture-refcard-02```
-
-### Projekt bauen und starten
-Die Ausführung der Befehle erfolgt im Projektordner
-
-Builden mit Node/npm<br/>
-```$ npm install```
-
-Das Projekt wird gebaut und die entsprechenden Dateien unter dem Ordner node_modules gespeichert.
-
-Die App kann nun mit folgendem Befehl gestartet werden<br/>
-```$ npm start```
-
-Die App kann nun im Browser unter der URL http://localhost:3000 betrachtet werden.
-
-
-
-### Inbetriebnahme mit Docker Container
-folgt...
-
-
-
+## 4. Github actions einrichten
