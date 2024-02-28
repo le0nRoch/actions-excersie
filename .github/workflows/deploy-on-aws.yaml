@@ -24,6 +24,11 @@ jobs:
           AWS_REGION: ${{ secrets.AWS_REGION }}
           AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
 
+      - name: Extract tag version
+        id: extract_tag
+        shell: bash
+        run: echo ::set-output name=tag::${GITHUB_REF/refs\/tags\//}
+
       - name: Build, tag, and push image to Amazon ECR
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
