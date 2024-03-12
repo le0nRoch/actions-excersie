@@ -2,8 +2,6 @@ name: deploy-on-aws
 
 on:
   push:
-    branches:
-      - main
     tags:
       - "v*.*.*"
 
