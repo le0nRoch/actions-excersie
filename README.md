@@ -22,6 +22,12 @@ Bei dieser Webanwendung teste ich dies mit `npm run build; npm run start` und ö
 
 ![secrets](./docs/add-github-secrets-ghcr.png)
 
+### 3. Resultat
+
+![ghcr](./docs/ghcr-result.png)
+
+![alt text](image.png)
+
 ## Pushen und Deployen auf AWS
 
 ### 1. AWS ECR repository erstellen
