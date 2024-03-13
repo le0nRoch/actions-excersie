@@ -14,6 +14,14 @@ Bei dieser Webanwendung teste ich dies mit `npm run build; npm run start` und ö
 
 4. Github actions einrichten
 
+## Pushen auf Github Registry
+
+### 1. Pipeline erstellen
+
+### 2. Github Actions secrets einrichten
+
+![secrets](./docs/add-github-secrets-ghcr.png)
+
 ## Pushen und Deployen auf AWS
 
 ### 1. AWS ECR repository erstellen
