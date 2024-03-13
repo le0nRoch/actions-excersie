@@ -6,7 +6,7 @@ on:
       - "v*.*.*"
 
 jobs:
-  push_to_ecr:
+  deploy-on-aws:
     runs-on: ubuntu-latest
 
     steps:
