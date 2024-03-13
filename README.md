@@ -48,4 +48,6 @@ Bei dieser Webanwendung teste ich dies mit `npm run build; npm run start` und ö
 
 ### 7. Result
 
+![show load balancer endpoint](./docs/aws-service-show-alb-endpoint.png)
+
 ![running](./docs/aws-refcard-03.png)
