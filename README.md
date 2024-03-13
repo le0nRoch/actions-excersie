@@ -45,3 +45,7 @@ Bei dieser Webanwendung teste ich dies mit `npm run build; npm run start` und ö
 #### Variabels
 
 ![variables](./docs/add-github-variables.png)
+
+### 7. Result
+
+![running](./docs/aws-refcard-03.png)
