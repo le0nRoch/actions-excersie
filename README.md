@@ -26,8 +26,6 @@ Bei dieser Webanwendung teste ich dies mit `npm run build; npm run start` und ö
 
 ![ghcr](./docs/ghcr-result.png)
 
-![alt text](image.png)
-
 ## Pushen und Deployen auf AWS
 
 ### 1. AWS ECR repository erstellen
