@@ -36,6 +36,12 @@ Bei dieser Webanwendung teste ich dies mit `npm run build; npm run start` und ö
 
 ### 6. Github Actions secrets und variables einrichten
 
+#### Secrets
+
+![aws details](./docs/aws-details.png)
+
 ![secrets](./docs/add-github-secrets.png)
+
+#### Variabels
 
 ![variables](./docs/add-github-variables.png)
