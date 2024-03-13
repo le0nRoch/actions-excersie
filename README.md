@@ -22,6 +22,20 @@ Bei dieser Webanwendung teste ich dies mit `npm run build; npm run start` und ö
 
 ### 2. Pipeline erstellen
 
-### 3. Github Actions secrets einrichten
+### 3. AWS ECS Task Definition erstellen
 
-![secrets](./docs/add-github-env-vars.png)
+![Task Definition](./docs/add-aws-task-definition.png)
+
+### 4. AWS ECS Cluster erstellen
+
+![Cluster](./docs/add-aws-ecs-cluster.png)
+
+## 5. AWS ECS Service erstellen
+
+![Service](./docs/add-aws-ecs-service.png)
+
+### 6. Github Actions secrets und variables einrichten
+
+![secrets](./docs/add-github-secrets.png)
+
+![variables](./docs/add-github-variables.png)
